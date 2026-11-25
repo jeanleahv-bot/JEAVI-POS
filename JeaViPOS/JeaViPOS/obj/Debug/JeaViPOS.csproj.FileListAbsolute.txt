@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.Properties.Resources.resources
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\bin\Debug\JeaViPOS.exe.config
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\bin\Debug\JeaViPOS.exe
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\bin\Debug\JeaViPOS.pdb
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.exe
+C:\Users\HP\source\repos\JeaViPOS\JeaViPOS\obj\Debug\JeaViPOS.pdb

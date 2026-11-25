@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.125, 11" name="villacorta">
+  <DataContextMoniker Name="/villacortaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="22acdce8-72da-45ac-a0aa-faeccc86dcff" absoluteBounds="3.875, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/villacortaDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4fa6fb72-0814-4b5e-a009-ec1947609f9c" absoluteBounds="3.89, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a840e9e8-f851-4497-a83c-5509e88a7706" absoluteBounds="5.875, 2.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/villacortaDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8079437-e542-4481-b3f2-58a4be804867" absoluteBounds="5.8900000000000006, 2.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6abc2d77-08a1-4f62-a150-0a4a9c972ee0" absoluteBounds="11.75, 6.375, 2, 1.9631982421875014">
+      <DataClassMoniker Name="/villacortaDataContext/OrderDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84efd709-0808-4ef2-af34-a6598dde41f0" absoluteBounds="11.765, 6.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4d5a1322-ef05-4800-b022-0582a00f2eae" absoluteBounds="9, 5.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/villacortaDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7a7ea74-9130-4bfa-8c91-3e97c84edad9" absoluteBounds="9.015, 6.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74d76a82-6eca-46a7-91af-a534506352a3" absoluteBounds="9, 0.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/villacortaDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef6406f7-de81-425e-b4a0-571bbe9d1024" absoluteBounds="9.015, 1.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f1248284-be28-499b-ad0c-06a9a1ad6976" absoluteBounds="0.75, 8.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/villacortaDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05cc451f-73ab-49e2-a92a-69bf48cf2fef" absoluteBounds="0.765, 9.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dcb2777e-fde9-4a19-859d-d59eb5b39df6" absoluteBounds="3.5, 8.25, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/villacortaDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe0a062e-cadf-4389-a3fb-8a78aca43bfd" absoluteBounds="3.515, 8.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11 : 7.35659912109375); (11.75 : 7.35659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/Order/Order_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="4d5a1322-ef05-4800-b022-0582a00f2eae" />
+        <classShapeMoniker Id="6abc2d77-08a1-4f62-a150-0a4a9c972ee0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.875 : 4.2131982421875); (6.875 : 7.40465413411458); (9 : 7.40465413411458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/Customer/Customer_Order" />
+      <nodes>
+        <classShapeMoniker Id="a840e9e8-f851-4497-a83c-5509e88a7706" />
+        <classShapeMoniker Id="4d5a1322-ef05-4800-b022-0582a00f2eae" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 2.28125); (13.59375 : 2.28125); (13.59375 : 6.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/Product/Product_OrderDetail" />
+      <nodes>
+        <classShapeMoniker Id="74d76a82-6eca-46a7-91af-a534506352a3" />
+        <classShapeMoniker Id="6abc2d77-08a1-4f62-a150-0a4a9c972ee0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.875 : 1.71875); (9 : 1.71875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="22acdce8-72da-45ac-a0aa-faeccc86dcff" />
+        <classShapeMoniker Id="74d76a82-6eca-46a7-91af-a534506352a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.65465413411458); (9 : 8.65465413411458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/User/User_Order" />
+      <nodes>
+        <classShapeMoniker Id="dcb2777e-fde9-4a19-859d-d59eb5b39df6" />
+        <classShapeMoniker Id="4d5a1322-ef05-4800-b022-0582a00f2eae" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.44314697265625); (3.5 : 9.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="f1248284-be28-499b-ad0c-06a9a1ad6976" />
+        <classShapeMoniker Id="dcb2777e-fde9-4a19-859d-d59eb5b39df6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8204bc71-bb76-49f3-8f8d-3a0d12574a98" absoluteBounds="11.375, 3.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/villacortaDataContext/InventoryLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5f795c5-e32d-439e-b2c9-9a496c369085" absoluteBounds="11.39, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10 : 4.05930826822917); (10 : 4.85659912109375); (11.375 : 4.85659912109375)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/villacortaDataContext/Product/Product_InventoryLog" />
+      <nodes>
+        <classShapeMoniker Id="74d76a82-6eca-46a7-91af-a534506352a3" />
+        <classShapeMoniker Id="8204bc71-bb76-49f3-8f8d-3a0d12574a98" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 8.25); (4.5 : 5.30330206054687); (6.79166666666667 : 5.30330206054687 : JumpStart); (6.95833333333333 : 5.30330206054687 : JumpEnd); (11.375 : 5.30330206054687)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/villacortaDataContext/User/User_InventoryLog" />
+      <nodes>
+        <classShapeMoniker Id="dcb2777e-fde9-4a19-859d-d59eb5b39df6" />
+        <classShapeMoniker Id="8204bc71-bb76-49f3-8f8d-3a0d12574a98" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
